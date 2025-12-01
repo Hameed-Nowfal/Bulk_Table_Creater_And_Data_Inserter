@@ -129,7 +129,7 @@ def MakeTable_From_csv_files(folder_path, cursor):
             # Create the table with the columns
             create_table(cursor, table_name, columns)
 
-# Input server and database name, Example -> Server Name: WORKSPA-B6JFO1N and DataBase Name: 1_DEV_ARB_DB OR 2_QA2_ARB_DB Or 3_QA1_ARB_DB OR 4_STG_ARB_DB
+# Input server and database name, Example -> Server Name: ABCSERV and DataBase Name: 1_DEV_ARB_DB OR 2_QA2_ARB_DB Or 3_QA1_ARB_DB OR 4_STG_ARB_DB
 server_name = input("Enter server name: ")  
 database_name = input("Enter database name: ")
 
